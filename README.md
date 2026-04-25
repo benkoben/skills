@@ -21,6 +21,9 @@ This repository contains AI agent skills that can be fetched with `npx skills`.
 # Install all skills to OpenCode
 npx skills add benkoben/skills
 
+# Install specific skill by name
+npx skills add benkoben/skills --skill micropython-skills -a opencode -y
+
 # Install to specific agents
 npx skills add benkoben/skills -a opencode -a claude-code
 ```
